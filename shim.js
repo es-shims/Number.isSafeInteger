@@ -5,6 +5,6 @@ var getPolyfill = require('./polyfill');
 
 module.exports = function shimMathIsSafeInteger() {
 	var polyfill = getPolyfill();
-	// TODO
+	define(Number, { isSafeInteger: polyfill });
 	return polyfill;
 };
