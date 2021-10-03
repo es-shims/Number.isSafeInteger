@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = isSafeIntegerModule;
-	t.equal(await import('number.issafeinteger/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('number.issafeinteger/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('number.issafeinteger/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('number.issafeinteger/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('number.issafeinteger/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('number.issafeinteger/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
