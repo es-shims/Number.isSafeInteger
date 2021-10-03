@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Number.isSafeInteger/compare/v1.0.0...v1.0.1) - 2021-10-03
+
+### Commits
+
+- [Refactor] remove ESM entry points [`5df585a`](https://github.com/es-shims/Number.isSafeInteger/commit/5df585ae3cd747902fd5ab99236b6e37ef4fcc15)
+- [Deps] update `es-abstract` [`dd03bb8`](https://github.com/es-shims/Number.isSafeInteger/commit/dd03bb86f42fb1819418b3efce1ad01fe53dba40)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`098bc44`](https://github.com/es-shims/Number.isSafeInteger/commit/098bc44397aa91bcb5c0ff3badf798f2c9f07510)
+- [actions] update workflows [`62817a1`](https://github.com/es-shims/Number.isSafeInteger/commit/62817a10052c349b8377f18429902d776657658e)
+- [Tests] add `@es-shims/api` [`b006e8e`](https://github.com/es-shims/Number.isSafeInteger/commit/b006e8e7094f099dde4300bcb916e11f7b0656c2)
+
 ## v1.0.0 - 2021-05-17
 
 ### Commits
