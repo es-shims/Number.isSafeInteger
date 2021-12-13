@@ -7,15 +7,6 @@
 		"id-length": 0,
 		"new-cap": [2, {
 			"capIsNewExceptions": ["IsIntegralNumber"]
-		}]
+		}],
 	},
-
-	"overrides": [
-		{
-			"files": "**/*.mjs",
-			"rules": {
-				"no-restricted-exports": 0,
-			},
-		},
-	],
 }
