@@ -1,6 +1,6 @@
 'use strict';
 
-var IsIntegralNumber = require('es-abstract/2022/IsIntegralNumber');
+var IsIntegralNumber = require('es-abstract/2023/IsIntegralNumber');
 var abs = Math.abs;
 var firstUnsafeInteger = 0x20000000000000; // 2 ** 53
 
